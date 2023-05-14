@@ -30,3 +30,17 @@ class BookRating extends StatelessWidget {
     );
   }
 }
+
+class BooksAction extends StatelessWidget {
+  const BooksAction({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+
+      ],
+    );
+  }
+}
+
