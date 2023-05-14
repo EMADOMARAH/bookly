@@ -1,7 +1,7 @@
 import 'package:bookly/core/constants.dart';
 import 'package:bookly/core/utils/assets.dart';
 import 'package:bookly/core/utils/styles.dart';
-import 'package:bookly/features/home/presentation/views/widget/featured_list_view_item.dart';
+import 'package:bookly/features/home/presentation/views/widget/custom_book_item.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'best_seller_list_view.dart';
@@ -22,7 +22,7 @@ class HomeViewBody extends StatelessWidget {
                 padding: EdgeInsets.symmetric(horizontal: 30.0),
                 child: CustomAppBar(),
               ),
-              FeaturedListViewItem(),
+              CustomBookImage(),
               SizedBox(
                 height: 50,
               ),
