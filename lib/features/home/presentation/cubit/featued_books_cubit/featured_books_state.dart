@@ -1,4 +1,5 @@
-part of 'featured_books_cubit.dart';
+import 'package:bookly/features/home/domain/entities/book_entity.dart';
+
 
 abstract class FeaturedBooksState {}
 
@@ -12,9 +13,5 @@ class FeaturedBooksFailure extends FeaturedBooksState {
 }
 class FeaturedBooksSuccess extends FeaturedBooksState {
   final List<BookEntity> books;
-
   FeaturedBooksSuccess(this.books);
-
-
-
 }
